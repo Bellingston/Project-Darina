@@ -1,0 +1,202 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* width pishem dlya starih browser'ov  */
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(../images/body_group1.jpg);
+    background-size: cover;
+}
+#wrapper{
+    position: relative;
+    min-height: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.header{
+    height: 200px;
+    background-image: url(../images/header_group8.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer{
+    margin-top: -70px;
+    position: relative;
+    z-index: 100;
+    height: 70px;
+    /* background-color: violet; */
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    /* left: 50%;
+    margin-left: -344px;
+    position: absolute; */
+}
+/* h_footer=h_subfooter */
+.subfooter{
+    height: 70px;
+}
+.inner{
+    max-width: 960px;
+    margin: 0 auto;
+    /* width: 94%; */
+}
+.right-side-bar{
+    width: 225px;
+    height: 770px;
+    margin-left: 20px;
+    float: right;
+    /* margin-left: 20px; */
+    /* background-color: turquoise; */
+    padding-top: 30px;
+}
+.left-side-bar{
+    width: 221px;
+    height: 770px;
+    float: left;
+    /* margin-right: 20px; */
+    /* background-color: teal; */
+    padding-top: 30px;
+    padding-left: 23px;
+}
+.clear{
+    height: 1px;
+    clear: both;
+}
+.main{
+    padding-bottom: 30px;
+}
+.container{
+    background-image: url(../images/base_container.png);
+}
+.logo-darina{
+    background-image: url(../images/header_logo_group4.png);
+    background-size: cover;
+    height: 175px;
+    width: 165px;
+    /* top: 13px; */
+    float: left;
+    margin-top: 13px;
+    margin-left: 30px;
+    /* left: 50%;
+    margin-left: -459px;
+    position: absolute; */
+    /* margin-left: 340px;
+    margin-top: 13px;
+    box-sizing: border-box; */
+}
+.logo-harmonic{
+    background-image: url(../images/header_harmonic_group2.png);
+    /* position: absolute; */
+    height: 185px;
+    width: 257px;
+    /* top: 9px;
+    right: 50%;
+    margin-right: -510px; */
+    float: right;
+    margin-right: -30px;
+    
+}
+.head-text_KUorganization{
+    /* margin-left: 557px;
+    margin-right: 545px; */
+    width: 326px;
+    height: 51px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+    text-align: center;
+    font-style: italic;
+    left: 50%;
+    margin-left: -164px;
+    position: absolute;
+}
+.head-text-main{
+    width: 450px;
+    height: 85px;
+    font-family: "Binner_Di", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #4b8902;
+    left: 50%;
+    margin-left: -218px;
+    position: absolute;
+    margin-top: 54px;
+}
+.head-text-darina{
+    width: 201px;
+    height: 41px;
+    font-family: "Binner_Di", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c97852;
+    left: 50%;
+    margin-left: -108px;
+    position: absolute;
+    margin-top: 150px;
+}
+.content{
+    padding-top: 30px;
+}
+.news-name{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.news-date-kategory-author{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.5;
+}
+.news-main-picture{
+
+    background-image: url(../images/news_picture.jpg);
+    width: 100px;
+    height: 74px;
+    float: left;
+}
+.news-main-text{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 365px;
+    height: 126px;
+    float: right;
+}
+.news-main-text-pic{
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 240px;
+    width: 475px;
+    height: 126px;
+    margin-bottom: 10px;
+}
+.more-info{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    color: #475bc1;
+}
+.news{
+    margin-bottom: 23px;
+}
