@@ -46,7 +46,7 @@ body{
     height: 70px;
 }
 .inner{
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
     /* width: 94%; */
 }
@@ -67,7 +67,89 @@ body{
     /* background-color: teal; */
     padding-top: 30px;
     padding-left: 23px;
+    margin-right: 19px;
 }
+.menu_lsb{
+    height: 270px;
+    margin-bottom: 10px;
+}
+
+.button_menu{
+    background: url(../images/green_button.png) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+li{
+    position: relative;
+    padding-left: 40px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+li:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/ul_menu.png) no-repeat center left;
+    background-size: contain;
+}
+
+.archive_lsb{
+    margin-bottom: 10px;
+}
+
+.button_archive{
+    background: url(../images/green_button.png) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ul_archive{
+    margin-left: 20px;
+}
+
+.button_random_photo{
+    background: url(../images/green_button.png) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.random_photo{
+    width: 206px;
+    height: 137px;
+    background: url(../images/random_photo.jpg);
+}
+
 .clear{
     height: 1px;
     clear: both;
@@ -77,6 +159,8 @@ body{
 }
 .container{
     background-image: url(../images/base_container.png);
+    margin-top: -16px;
+    padding-top: 30px;
 }
 .logo-darina{
     background-image: url(../images/header_logo_group4.png);
@@ -185,7 +269,7 @@ body{
     margin-right: 10px;
     margin-top: 15px;
     margin-left: 240px;
-    width: 475px;
+    width: 500px;
     height: 126px;
     margin-bottom: 10px;
 }
@@ -196,6 +280,7 @@ body{
     font-style: italic;
     text-align: right;
     color: #475bc1;
+    text-decoration: none;
 }
 .news{
     margin-bottom: 23px;
