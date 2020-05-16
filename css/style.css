@@ -52,13 +52,13 @@ body{
 }
 .right-side-bar{
     /* width: 225px; */
-    height: 770px;
-    margin-left: 20px;
+    /* height: 770px; */
+    margin-left: 18px;
     float: right;
     /* margin-left: 20px; */
     /* background-color: turquoise; */
     padding-top: 30px;
-    padding-right: 24px;
+    padding-right: 28px;
 }
 
 .authorize_rsb{
@@ -66,14 +66,16 @@ body{
 }
 
 .authorize_rsb__button-autorize{
-    background: url(../images/green_button.png) no-repeat center;
+    background: url(../images/green_button1.jpg) no-repeat center;
     background-size: cover;
-    height: 50px;
-    width: 210px;
+    /* height: 50px;
+    width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding: 7px;
+    margin-bottom: 15px;
 }
 .authorize_rsb__login{
     margin-left: 17px;
@@ -92,6 +94,7 @@ input{
     border-radius: 5px;
     width: 172px;
     height: 21px;
+    margin-bottom: 15px;
 }
 
 .authorize_rsb__rememberpass-and-registration{
@@ -99,8 +102,8 @@ input{
     font-size: 11px;
     font-weight: 400;
     font-style: italic;
-    margin-left: 15px;
-    margin-top: 3px;
+    margin-left: -2px;
+    margin-top: -13px;
 }
 
 .authorize_rsb__rememberpass-and-registration span{
@@ -109,16 +112,18 @@ input{
 
 .authorize_rsb__enter{
     background: url(../images/button-enter.png) no-repeat center;
-    background-size: cover;
+    /* background-size: cover;
     height: 30px;
-    width: 76px;
+    width: 76px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     text-align: center;
-    margin-left: 69px;
-    margin-top: 16px;
+    margin-top: 14px;
+    padding: 4px 14px;
+    border-radius: 8px;
+    margin-left: 54px;
 }
 
 .authorize_rsb__enter a{
@@ -130,14 +135,16 @@ input{
 }
 
 .news_rsb__button-news{
-    background: url(../images/green_button.png) no-repeat center;
+    background: url(../images/green_button1.jpg) no-repeat center;
     background-size: cover;
-    height: 50px;
-    width: 210px;
+    /* height: 50px;
+    width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding: 7px;
+    margin-bottom: 30px;
 }
 
 .news_rsb__date_and_green-new{
@@ -205,15 +212,16 @@ input{
 }
 
 .button_menu{
-    background: url(../images/green_button.png) no-repeat center;
+    background: url(../images/green_button1.jpg) no-repeat center;
     background-size: cover;
-    height: 50px;
+    /* height: 50px; */
     /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: -9px;
+    margin-bottom: 4px;
+    padding: 7px;
 }
 
 ul{
@@ -234,7 +242,7 @@ ul{
     line-height: 36px;
 }
 
-.ul_menu li:before{
+.ul_menu li a:before{
     content: '';
     position: absolute;
     left: 7px;
@@ -258,38 +266,29 @@ ul{
     line-height: 36px;
 }
 
-/* li:before{
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: 8px;
-    height: 20px;
-    width: 20px;
-    background: url(../images/menu_marker.png) no-repeat center left;
-    background-size: contain;
-} */
-
 .archive_lsb{
     margin-bottom: 10px;
 }
 
 .button_archive{
-    background: url(../images/green_button.png) no-repeat center;
+    background: url(../images/green_button1.jpg) no-repeat center;
     background-size: cover;
-    height: 50px;
+    /* height: 50px; */
     /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-top: -11px;
+    padding: 7px;
+    margin-bottom: 14px;
 }
 
 .ul_archive{
     margin-left: 20px;
 }
 
-.ul_archive li:before{
+.ul_archive li a:before{
     background: url(../images/marker_month.png) no-repeat center left;
     content: '';
     position: absolute;
@@ -305,15 +304,16 @@ ul{
 }
 
 .button_random_photo{
-    background: url(../images/green_button.png) no-repeat center;
+    background: url(../images/green_button1.jpg) no-repeat center;
     background-size: cover;
-    height: 50px;
+    /* height: 50px; */
     /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-top: 33px;
+    margin-top: -2px;
+    padding: 7px;
 }
 
 .random_photo{
@@ -323,7 +323,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     border: 3px solid white;
-    margin-top: 10px;
+    margin-top: 26px;
     box-sizing: border-box;
     box-shadow: black;
     box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
@@ -398,35 +398,36 @@ ul{
 .head-text_KUorganization{
     /* margin-left: 557px;
     margin-right: 545px; */
-    width: 326px;
-    height: 51px;
+    /* width: 326px;
+    height: 51px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: auto;
     text-align: center;
     font-style: italic;
-    left: 50%;
-    margin-left: -164px;
-    position: absolute;
+    /* left: 50%;
+    /* margin-left: -164px;
+    position: absolute; */ 
 }
 .head-text-main{
-    width: 450px;
-    height: 85px;
+    /* width: 450px;
+    height: 85px; */
     font-family: "Binner_Di", "Arial", sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
     text-align: center;
     color: #4b8902;
-    left: 50%;
+    /* left: 50%;
     margin-left: -218px;
     position: absolute;
-    margin-top: 48px;
+    margin-top: 48px; */
+    margin-top: 7px;
 }
 .head-text-darina{
-    width: 201px;
-    height: 41px;
+    /* width: 201px;
+    height: 41px; */
     font-family: "Binner_Di", "Arial", sans-serif;
     font-weight: 400;
     font-size: 48px;
@@ -434,10 +435,11 @@ ul{
     text-align: center;
     text-transform: uppercase;
     color: #c97852;
-    left: 50%;
+    /* left: 50%;
     margin-left: -108px;
     position: absolute;
-    margin-top: 146px;
+    margin-top: 146px; */
+    margin-top: 7px;
 }
 .content{
     padding-top: 30px;
@@ -506,7 +508,7 @@ a{
 .pagination li{
     float: left;
     color: black;
-    margin-right: 18px;
+    margin-right: 5px;
 }
 
 .pagination a{
@@ -514,12 +516,14 @@ a{
     font-size: 12px;
     font-family: "Century Gothic", "Arial", sans-serif;
     font-weight: 400;
+    padding: 5px;
+    border: 1px solid transparent;
 }
 
 .pagination{
     display: flex;
     justify-content: center;
-    padding-left: 43px;
+    padding-left: 35px;
     padding-top: 88px;
 }
 
@@ -530,8 +534,24 @@ a{
 .pagination__link:hover{
     background-color: rgb(170, 169, 169);
     opacity: .5;
-    width: 17px;
-    height: 22px;
+    /* width: 17px;
+    height: 22px; */
     border-radius: 3px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-color: black;
+}
+
+.form__inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination__link:{
+    background-color: rgb(170, 169, 169);
+    opacity: .5;
+    /* width: 17px;
+    height: 22px; */
+    border-radius: 3px;
+    /* border: 1px solid black; */
+    border-color: black;
 }
