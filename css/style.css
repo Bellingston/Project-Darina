@@ -515,3 +515,23 @@ a{
     font-family: "Century Gothic", "Arial", sans-serif;
     font-weight: 400;
 }
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-left: 43px;
+    padding-top: 88px;
+}
+
+.pagination__link{
+    padding: 0 4px;
+}
+
+.pagination__link:hover{
+    background-color: rgb(170, 169, 169);
+    opacity: .5;
+    width: 17px;
+    height: 22px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
