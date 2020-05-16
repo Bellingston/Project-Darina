@@ -51,16 +51,145 @@ body{
     /* width: 94%; */
 }
 .right-side-bar{
-    width: 225px;
+    /* width: 225px; */
     height: 770px;
     margin-left: 20px;
     float: right;
     /* margin-left: 20px; */
     /* background-color: turquoise; */
     padding-top: 30px;
+    padding-right: 24px;
 }
+
+.authorize_rsb{
+    height: 181px;
+}
+
+.authorize_rsb__button-autorize{
+    background: url(../images/green_button.png) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.authorize_rsb__login{
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
+.authorize_rsb__pass{
+    margin-left: 17px;
+}
+
+input{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 5px;
+    width: 172px;
+    height: 21px;
+}
+
+.authorize_rsb__rememberpass-and-registration{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.authorize_rsb__rememberpass-and-registration span{
+    margin: 0 5px;
+}
+
+.authorize_rsb__enter{
+    background: url(../images/button-enter.png) no-repeat center;
+    background-size: cover;
+    height: 30px;
+    width: 76px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-left: 69px;
+    margin-top: 16px;
+}
+
+.authorize_rsb__enter a{
+    color: black;
+}
+
+.news_rsb{
+    margin-top: 38px;
+}
+
+.news_rsb__button-news{
+    background: url(../images/green_button.png) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.news_rsb__date_and_green-new{
+    width: 206px;
+    margin-top: 14px;
+}
+
+.news_rsb__date{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+}
+
+.news_rsb__green-new{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #4b8902;
+    float: right;
+}
+
+.news_rsb__news-name{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news_rsb__news-text{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 207px;
+    /* height: 62px; */
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.news_rsb__news-more-info{
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 5px
+}
+
+.random_photo_rsb{
+    margin-top: 49px;
+}
+
 .left-side-bar{
-    width: 221px;
+    /* width: 221px; */
     height: 770px;
     float: left;
     /* margin-right: 20px; */
@@ -69,6 +198,7 @@ body{
     padding-left: 23px;
     margin-right: 19px;
 }
+
 .menu_lsb{
     height: 270px;
     margin-bottom: 10px;
@@ -78,11 +208,12 @@ body{
     background: url(../images/green_button.png) no-repeat center;
     background-size: cover;
     height: 50px;
-    width: 210px;
+    /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: -9px;
 }
 
 ul{
@@ -94,7 +225,7 @@ ul{
     padding-inline-start: 0px;
 }
 
-li{
+.ul_menu li{
     position: relative;
     padding-left: 40px;
     font-family: "Century Gothic", "Arial", sans-serif;
@@ -103,16 +234,40 @@ li{
     line-height: 36px;
 }
 
-li:before{
+.ul_menu li:before{
     content: '';
     position: absolute;
-    left: 0;
-    top: 4px;
+    left: 7px;
+    top: 8px;
     height: 20px;
     width: 20px;
-    background: url(../images/ul_menu.png) no-repeat center left;
+    background: url(../images/menu_marker.png) no-repeat center left;
     background-size: contain;
 }
+
+.ul_menu li a{
+    color: black;
+}
+
+.ul_archive li{
+    position: relative;
+    padding-left: 36px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* li:before{
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/menu_marker.png) no-repeat center left;
+    background-size: contain;
+} */
 
 .archive_lsb{
     margin-bottom: 10px;
@@ -122,32 +277,60 @@ li:before{
     background: url(../images/green_button.png) no-repeat center;
     background-size: cover;
     height: 50px;
-    width: 210px;
+    /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-top: -11px;
 }
 
 .ul_archive{
     margin-left: 20px;
 }
 
+.ul_archive li:before{
+    background: url(../images/marker_month.png) no-repeat center left;
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    background-size: contain;
+}
+
+.ul_archive a{
+    color: black;
+}
+
 .button_random_photo{
     background: url(../images/green_button.png) no-repeat center;
     background-size: cover;
     height: 50px;
-    width: 210px;
+    /* width: 210px; */
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-top: 33px;
 }
 
 .random_photo{
-    width: 206px;
+    /* width: 206px; */
     height: 137px;
     background: url(../images/random_photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+    margin-top: 10px;
+    box-sizing: border-box;
+    box-shadow: black;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+.random_photo_lsb{
+    margin-top: 34px;
 }
 
 .clear{
@@ -159,7 +342,7 @@ li:before{
 }
 .container{
     background-image: url(../images/base_container.png);
-    margin-top: -16px;
+    margin-top: -29px;
     padding-top: 30px;
 }
 .logo-darina{
@@ -178,6 +361,17 @@ li:before{
     margin-top: 13px;
     box-sizing: border-box; */
 }
+
+.logo-darina:after{
+    content: '';
+    background-image: url(../images/rings.png);
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    margin-top: 166px;
+    margin-left: 8px;
+}
+
 .logo-harmonic{
     background-image: url(../images/header_harmonic_group2.png);
     /* position: absolute; */
@@ -187,9 +381,20 @@ li:before{
     right: 50%;
     margin-right: -510px; */
     float: right;
-    margin-right: -30px;
-    
+    margin-right: -22px;
+    margin-top: 8px;
 }
+
+.logo-harmonic:after{
+    content: '';
+    background-image: url(../images/rings.png);
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 8px;
+}
+
 .head-text_KUorganization{
     /* margin-left: 557px;
     margin-right: 545px; */
@@ -217,7 +422,7 @@ li:before{
     left: 50%;
     margin-left: -218px;
     position: absolute;
-    margin-top: 54px;
+    margin-top: 48px;
 }
 .head-text-darina{
     width: 201px;
@@ -232,7 +437,7 @@ li:before{
     left: 50%;
     margin-left: -108px;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 146px;
 }
 .content{
     padding-top: 30px;
@@ -241,6 +446,7 @@ li:before{
     font-family: "Century Gothic", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin-top: -6px;
 }
 .news-date-kategory-author{
     font-family: "Century Gothic", "Arial", sans-serif;
@@ -248,6 +454,7 @@ li:before{
     font-weight: 400;
     font-style: italic;
     opacity: 0.5;
+    margin-top: -2px;
 }
 .news-main-picture{
 
@@ -255,6 +462,10 @@ li:before{
     width: 100px;
     height: 74px;
     float: left;
+    border: 3px solid white;
+    box-sizing: border-box;
+    box-shadow: black;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
 }
 .news-main-text{
     font-family: "Century Gothic", "Arial", sans-serif;
@@ -271,7 +482,7 @@ li:before{
     margin-left: 240px;
     width: 500px;
     height: 126px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 .more-info{
     font-family: "Century Gothic", "Arial", sans-serif;
@@ -283,5 +494,24 @@ li:before{
     text-decoration: none;
 }
 .news{
-    margin-bottom: 23px;
+    margin-bottom: 21px;
+    margin-top: -6px;
+}
+
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.pagination li{
+    float: left;
+    color: black;
+    margin-right: 18px;
+}
+
+.pagination a{
+    color: black;
+    font-size: 12px;
+    font-family: "Century Gothic", "Arial", sans-serif;
+    font-weight: 400;
 }
